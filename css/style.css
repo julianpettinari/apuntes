@@ -1,0 +1,113 @@
+
+
+*{
+    margin:0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(44, 36, 36);
+}
+
+/*/HEADER/*/
+
+.links ul{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.links ul li{
+    margin-top: 10px;
+    margin-right: 20px;
+    line-height: 30px;
+    font-size: 25px;
+
+}
+
+
+.logo{
+    height: 30px;
+
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    background-color:#333942 ;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+}
+h1{
+    margin: 0px 30px 0px 30px;
+    text-align: center;
+}
+
+#title{
+    /* position:absolute;
+    top:303px; */
+}
+
+
+h2{
+    text-transform: uppercase;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    
+}
+
+section.cont-tarjetas{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(121, 86, 146);
+    margin: 5%;
+}
+
+.frontend1{
+   
+
+}
+
+.introinformatica{
+  
+
+}
+
+.metodologiatrabajo{
+
+
+}
+
+.avatar{
+    border-radius: 50%;
+    box-shadow: 0px 4px 5px ;
+}
+
+
+
+/*///FOOTER/////*/
+
+#ayuda{
+    position:fixed;
+    display: flex;
+    bottom: 15px;
+    right: 15px;
+    align-items: center;
+    flex-direction: column;
+}
+#textoayuda{
+    text-transform: uppercase;
+    text-shadow: 0px 2px 2px ;
+
+
+}
